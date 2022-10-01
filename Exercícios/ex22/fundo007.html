@@ -7,21 +7,35 @@
     <title>Alinhamento vertical</title>
 
     <style>
+/*==================== Alinhamento vertical e horizontal ====================*/ 
         #container{
-            height: 500px;
+            background-image: url(Imagens/target001.png);
+            background-size: 100% 100%;
+            position: relative;
+            padding: 10px;
+            height: 96vh;
             background-color: blue;
         }
 
         #conteudo{
+            background-image: url(Imagens/target001.png);
+            background-size: 100% 100%;
+            position: absolute; /*O conteudo vai ter posicionamento absoluto para controlar left e top*/
+            background-color: violet;
             height: 200px;
-            background-color: aqua;
+            width: 400px;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%); /*mexe na posição de uma caixa*/
         }
 
     </style>
 
 </head>
 <body>
-    <section id="conteiner">
+    <section id="container">
         <article id="conteudo">
 
         </article>
