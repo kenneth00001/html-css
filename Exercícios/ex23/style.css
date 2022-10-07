@@ -39,7 +39,7 @@ nav>p{
 
 section{
     font-family: var(--fonte3);
-    font-size: 2vw;
+    font-size: 2,5vw;
     line-height: 2em;
     padding-left: 30px;
     padding-top: 10vh;
@@ -65,7 +65,6 @@ section.imagem{
 
 section.normal{
     background-color: white;
-    /* padding: 8px; */
     color: black;
 }
 
