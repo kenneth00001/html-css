@@ -39,7 +39,7 @@ nav>p{
 
 section{
     font-family: var(--fonte3);
-    font-size: 2,5vw;
+    font-size: 2.5vw;
     line-height: 2em;
     padding-left: 30px;
     padding-top: 10vh;
@@ -48,6 +48,9 @@ section{
 
 section > p{
     padding-bottom: 2em;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 section.imagem > p{
